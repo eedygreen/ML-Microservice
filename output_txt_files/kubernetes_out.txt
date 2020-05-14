@@ -1,3 +1,18 @@
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+Error from server (AlreadyExists): pods "opml" already exists
+NAME   READY   STATUS    RESTARTS   AGE
+opml   1/1     Running   2          42h
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+
 [2020-05-13 18:42:06,599] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
 [2020-05-13 18:42:06,630] INFO in app: Inference payload DataFrame: 
